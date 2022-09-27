@@ -1,8 +1,6 @@
 ###employee in attributes: name, ID number, department, job title and monthly salary
 
 
-from unicodedata import name
-
 
 class Employee:
 
@@ -13,24 +11,22 @@ class Employee:
         self.__dept = dept
         self.__job = job
         self.__salary = salary
-
-
     ##################################    
 
-    def set_name(self,name):
-        self.__name = name
+#    def set_name(self,name):
+ #       self.__name = name
+      
+#    def set_id(self,i):
+ #       self.__id = i
 
-    def set_id(self,i):
-        self.__id = i
+  #  def set_dept(self,dept):
+   #     self.__dept = dept
 
-    def set_dept(self,dept):
-        self.__dept = dept
+    #def set_job(self,job):
+     #   self.__job = job
 
-    def set_job(self,job):
-        self.__job = job
-
-    def set_salary(self,salary):
-        self.__salary = salary
+  #  def set_salary(self,salary):
+   #     self.__salary = salary
 
     ##################################
 
