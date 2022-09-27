@@ -14,7 +14,7 @@ deduct5 = prd.Payroll('Vending Machine','8/14/2022', 2.75, 58475)
 #######  Report printing ################
 
 
-print('*** Employee pay ***')
+print('*** Employee Pay ***')
 print('Name:',employee.get_name())
 print('ID number:',employee.get_id())
 print('Department:',employee.get_dept())
